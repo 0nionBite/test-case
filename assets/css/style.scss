@@ -1,0 +1,429 @@
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(../src/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Lato-light';
+    src: url(../src/fonts/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(../src/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Lato-Semibold';
+    src: url(../src/fonts/Lato-SemiBold.ttf);
+}
+
+
+
+body {
+    max-width: 1412px;
+    margin: 0 auto;
+    font-family: 'lato-Regular';
+}
+
+.header-links {
+    display: flex;
+    gap: 28px;
+    font-family: 'Lato-light';
+    font-size: 12px;
+    padding-top: 23px;
+}
+
+.links-left {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    padding-right: 15px;
+}
+
+.links img {
+    margin: 0 12px 0 0;
+}
+
+.graphic {
+    position: relative;
+    top: -10px;
+}
+
+.link-socials {
+    display: flex;
+    gap: 12px;
+}
+
+.links-right {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: auto;
+    gap: 30px;
+}
+
+.links-right a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.header-links a:hover {
+    color: #09ABE4;
+    transition: 150ms;
+}
+
+.header-links span {
+    color: #828282;
+}
+
+.links-left a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.search img {
+    transform: translate(-120%);
+    position: absolute;
+    top: 9%;
+}
+
+.search-input {
+    width: 290px;
+    font-family: "lato-light";
+    border: none;
+    padding: 5px 12px 5px 0;
+    border-bottom: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    background: transparent;
+    outline: none;
+}
+
+.header-main {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-links {
+    display: flex;
+    gap: 30px;
+}
+
+.header-main span{
+    font-size: 24px;
+}
+
+.main-links img {
+    margin-right: 10px;
+    transform: translatey(20%);
+}
+
+.main-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-links a:hover {
+    color: #09ABE4;
+    transition: 150ms;
+}
+
+.navigation {
+    margin-top: 50px;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation a:hover {
+    color: #09ABE4;
+    transition: 150ms;
+}
+
+.slider {
+    margin-top: 5%;
+}
+
+.slide {
+    display: flex !important;
+}
+
+.slide-text {
+    position: absolute;
+    color: white;
+    top: 25%;
+    padding-left: 1%;
+    z-index: 10;
+}
+
+.slide-text p {
+    font-family: 'lato-light';
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.slide-text span {
+    font-size: 40px;
+}
+
+.slide-text a {
+    text-decoration: none;
+    font-family: 'lato-light';
+    background: none;
+    border: 0.75px solid white;
+    color: white;
+    padding: 17px 36px;
+    font-size: 14px;
+}
+
+.banner {
+    margin-top: 10%;
+    position: relative;
+}
+
+.glasses {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+}
+
+.banner-text {
+    position: absolute;
+    top: 20%;
+    padding-left: 9%;
+}
+
+.banner-text h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.banner-text p {
+    font-size: 18px;
+    color: white;
+    padding: 15px 0 15px;
+}
+
+.banner-text a {
+    text-decoration: none;
+    font-family: 'lato-light';
+    background: none;
+    border: 0.75px solid white;
+    color: white;
+    padding: 16px 71px;
+    font-size: 14px;
+}
+
+.products-header {
+    margin-top: 100px;
+}
+
+.product-img {
+    background: #f2f2f2;
+    width: 330px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-text p {
+    font-size: 18px;
+}
+
+.downline {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: auto;
+}
+
+.actual {
+    color: #09ABE4;
+    font-size: 18px;
+    margin: 0;
+}
+
+.old {
+    font-size: 14px;
+    color: #828282;
+}
+
+.buy {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.image {
+    background-image: url('../src/products/bars-graphic.svg');
+    padding: 11px 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    position: relative;
+}
+
+.image:hover {
+    background-image: url('../src/products/bars-graphic-white.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.buy a:hover {
+    background-color: #09ABE4;
+    color: white;
+}
+
+.buy a {
+    border: 1px solid #09ABE4;
+    text-decoration: none;
+    color: #09ABE4;
+}
+
+.purchase{
+    padding: 11px 25px 11px 25px !important;
+}
+
+.buy img {
+    height: 17px;
+    width: 15px;
+    object-fit: contain;
+}
+
+.card {
+    display: flex !important;
+    flex-direction: column;
+    height: 470px !important;
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px 3px #00000026;
+    transition: 400ms;
+}
+
+.products .slick-list {
+    margin: 0 -16px;
+}
+
+.products .slick-slide {
+    padding: 0 16px 16px;
+}
+
+.offers-container {
+    margin-top: 100px;
+}
+
+.offer-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer-head a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #09ABE4;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    position: relative;
+    width: 690px;
+}
+
+.offer-text {
+    display: block;
+    position: absolute;
+    color: #fff;
+    background: linear-gradient(#282696D9, #09ABE4);
+    bottom: 0%;
+    height: 31%;
+    width: 92%;
+    padding-top: 4%;
+    padding-left: 8%;
+}
+
+
+.offer-text span {
+    font-size: 24px;
+}
+
+.offer-text p{
+    font-size: 18px;
+}
+
+.offer-text a {
+    font-size: 12px;
+    font-family: 'lato-regular';
+    color: #fff;
+    text-decoration:none;
+    border-bottom: 1px #fff solid;
+    padding-bottom: 1px;
+}   
+
+.about {
+    display: flex;
+    margin-top: 100px;
+}
+
+.about img {
+    height: 580px;
+}
+
+.about-first {
+    position: relative;
+}
+
+.about-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    bottom: 7%;
+    left: 7%;
+    right: 5%;
+    justify-content: space-between;
+}
+
+.about-text span {
+    font-size: 30px;
+}
+
+.about-text p {
+    font-size: 18px;
+    font-family: 'lato-light';
+    
+}
+
+.about-text a {
+    font-family: 'lato-light';
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px #fff solid;
+    padding-bottom: 1px;
+    width: 93px;
+}
+
