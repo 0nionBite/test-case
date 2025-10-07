@@ -38,16 +38,29 @@
           </div>
         </div>
         <div class="header-main">
-          <a href="#"><img src="assets/src/header/logo.svg" alt="logo"></a>
-          <span>(8184) 52-96-33</span>
+          <a href="#" class="logo">
+            <img src="assets/src/header/logo.svg" alt="logo">
+          </a>
+          <span class="phone">(8184) 52-96-33</span>
           <div class="search">
             <input type="text" class="search-input" placeholder="Искать">
             <img src="assets/src/header/icon_search.svg" alt="search">
           </div>
           <div class="main-links">
-            <a href="#"><img src="assets/src/header/icon_profile.svg" alt="profile">Вход/Регистрация</a>
-            <span>|</span>
-            <a href="#"><img src="assets/src/header/icon_cart.svg" alt="cart">Корзина</a>
+            <a href="#"><img src="assets/src/header/icon_profile.svg" alt="profile">
+              <p>
+                Вход/Регистрация
+              </p>
+            </a>
+            <p>|</p>
+            <a href="#">
+              <img src="assets/src/header/icon_cart.svg" alt="cart">
+              <p>
+                Корзина  
+              </p>
+              <pre> </pre>
+              (<span class="cart-count"> 0</span>)
+            </a>
           </div>
         </div>
         <div class="navigation">
@@ -140,7 +153,7 @@
           </div>
           <div class="buy">
             <a class="image" href="#"></a>
-            <a class="purchase" href="#">В КОРЗИНУ</a>
+            <button class="purchase" data-id="1">В КОРЗИНУ</button>
           </div>
         </div>
       </div>
@@ -159,7 +172,7 @@
           </div>
           <div class="buy">
             <a class="image" href="#"></a>
-            <a class="purchase" href="#">В КОРЗИНУ</a>
+            <button class="purchase" data-id="2">В КОРЗИНУ</button>
           </div>
         </div>
       </div>
@@ -177,7 +190,7 @@
           </div>
           <div class="buy">
             <a class="image" href="#"></a>
-          <a class="purchase" href="#">В КОРЗИНУ</a>
+            <button class="purchase" data-id="3">В КОРЗИНУ</button>
           </div>
         </div>
       </div>
@@ -196,7 +209,7 @@
           </div>
           <div class="buy">
             <a class="image" href="#"></a>
-          <a class="purchase" href="#">В КОРЗИНУ</a>
+            <button class="purchase" data-id="4">В КОРЗИНУ</button>
           </div>
         </div>
       </div>
@@ -215,7 +228,7 @@
           </div>
           <div class="buy">
             <a class="image" href="#"></a>
-            <a class="purchase" href="#">В КОРЗИНУ</a>
+            <button class="purchase" data-id="5">В КОРЗИНУ</button>
           </div>
         </div>
       </div>
@@ -234,7 +247,7 @@
           </div>
           <div class="buy">
             <a class="image" href="#"></a>
-            <a class="purchase" href="#">В КОРЗИНУ</a>
+            <button class="purchase" data-id="6">В КОРЗИНУ</button>
           </div>
         </div>
       </div>
@@ -252,7 +265,7 @@
           </div>
           <div class="buy">
             <a class="image" href="#"></a>
-          <a class="purchase" href="#">В КОРЗИНУ</a>
+            <button class="purchase" data-id="7">В КОРЗИНУ</button>
           </div>
         </div>
       </div>
@@ -271,7 +284,7 @@
           </div>
           <div class="buy">
             <a class="image" href="#"></a>
-          <a class="purchase" href="#">В КОРЗИНУ</a>
+            <button class="purchase" data-id="8">В КОРЗИНУ</button>
           </div>
         </div>
       </div>
@@ -327,11 +340,80 @@
     </div>
 
     <footer>
-      <div>
-        
+      <div class="footer-header">
+        <div class="left-side">
+          <div class="footer-logo">
+          <img src="assets/src/footer/logo.svg" alt="logo">
+          </div>
+          <div>
+          <p>
+            ООО «Оптик-Центр»<br>ОГРН   1032901007853
+          </p>
+          <p>164500, г. Северодвинск,<br>ул. Ломоносова, д. 73</p>
+          <p>Информация на сайте не<br>является публичной офертой<br>и носит справочный<br>характер.</p>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="nav">
+            <nav>
+              <ul>
+                <li><a href="#">КАТАЛОГ</a></li>
+                <li><a href="#">ОМС</a></li>
+                <li><a href="#">О КОМПАНИИ</a></li>
+                <li><a href="#">АКЦИИ</a></li>
+                <li><a href="#">РОЗНИЧНАЯ СЕТЬ</a></li>
+                <li><a href="#">ПАРТНЕРЫ</a></li>
+                <li><a href="#">ПОДБОР ОЧКОВ</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="info">
+            <div class="stores">
+                <span>МАГАЗИНЫ</span>
+                <p>164500, г. Северодвинск, ул.<br>Советская, д. 50/12</p>
+                <p>163000, г. Архангельск, ул.<br>набережная Северной Двины, д. 93</p>
+            </div>
+            <div class="contacts">
+              <span>КОНТАКТНАЯ ИНФОРМАЦИЯ</span>
+              <h2>(8184) 52-96-33</h2>
+              <a href="">office@moda-optic.ru</a>
+              <div class="context">
+                <p>
+                  Мы с соц.сетях:
+                  <img src="assets/src/footer/socials/icon_instagram.svg" alt="instagram">
+                  <img src="assets/src/footer/socials/icon_twitter.svg" alt="twitter">
+                  <img src="assets/src/footer/socials/icon_vk.svg" alt="vk">
+                </p>
+              </div>
+            </div>
+            <div class="sub">
+              <p>
+                Подпишитесь на наши новости и акции,<br>чтобы быть в курсе
+              </p>
+              <div class="footer-search">
+                <input type="text" class="footer-input" placeholder="Ваш  e-mail">
+                <img src="assets/src/footer/Vector.svg" alt="submit">
+              </div>
+              <a href="#">Договор оферты</a>
+              <a href="#">Политика конфиденциальности</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-down">
+        <div class="footer-left">
+          <p>Интернет-магазин “Мода-оптик”.<a href="#">Пользовательское соглашение</a></p>
+          <p>Имеются противопоказания, необходимо проконсультироваться со специалистом</p>
+        </div>
+        <div class="footer-right">
+          <p>Принимаем к оплате:</p>
+          <img src="assets/src/footer/visa.png" alt="visa">
+          <img src="assets/src/footer/mastercard.png" alt="mastercard">
+          <img src="assets/src/footer/maestro.png" alt="maestro">
+          <img src="assets/src/footer/mir.png" alt="mir">
+        </div>
       </div>
     </footer>
+    <script type="module" src="assets/js/main.js"></script>
   </body>
-  <script type="module" src="assets/js/main.js"></script>
-
 </html>
