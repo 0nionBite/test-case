@@ -173,6 +173,7 @@ body {
 
 .slider {
     margin-top: 5%;
+    display: flex !important;
 }
 
 .slide {
@@ -243,6 +244,18 @@ body {
     color: white;
     padding: 16px 71px;
     font-size: 14px;
+}
+
+.products {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.products-wrapper {
+  display: flex;
+  gap: 5px;
+  transition: transform 0.5s ease-in-out;
 }
 
 .products-header {
